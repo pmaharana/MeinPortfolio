@@ -1,0 +1,9 @@
+C:\Users\prana\tiy\portfolio\MeinPortfolio\MeinPortfolio\bin\Debug\netcoreapp1.1\MeinPortfolio.deps.json
+C:\Users\prana\tiy\portfolio\MeinPortfolio\MeinPortfolio\bin\Debug\netcoreapp1.1\MeinPortfolio.runtimeconfig.json
+C:\Users\prana\tiy\portfolio\MeinPortfolio\MeinPortfolio\bin\Debug\netcoreapp1.1\MeinPortfolio.runtimeconfig.dev.json
+C:\Users\prana\tiy\portfolio\MeinPortfolio\MeinPortfolio\bin\Debug\netcoreapp1.1\MeinPortfolio.dll
+C:\Users\prana\tiy\portfolio\MeinPortfolio\MeinPortfolio\bin\Debug\netcoreapp1.1\MeinPortfolio.pdb
+C:\Users\prana\tiy\portfolio\MeinPortfolio\MeinPortfolio\obj\Debug\netcoreapp1.1\MeinPortfolio.csprojResolveAssemblyReference.cache
+C:\Users\prana\tiy\portfolio\MeinPortfolio\MeinPortfolio\obj\Debug\netcoreapp1.1\MeinPortfolio.AssemblyInfo.cs
+C:\Users\prana\tiy\portfolio\MeinPortfolio\MeinPortfolio\obj\Debug\netcoreapp1.1\MeinPortfolio.dll
+C:\Users\prana\tiy\portfolio\MeinPortfolio\MeinPortfolio\obj\Debug\netcoreapp1.1\MeinPortfolio.pdb
