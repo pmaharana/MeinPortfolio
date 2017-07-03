@@ -141,20 +141,28 @@
 
       $('#image-loader').fadeIn();
 
-      var contactName = $('#contactForm #contactName').val();
-      var contactEmail = $('#contactForm #contactEmail').val();
-      var contactSubject = $('#contactForm #contactSubject').val();
-      var contactMessage = $('#contactForm #contactMessage').val();
-
-      var data = 'contactName=' + contactName + '&contactEmail=' + contactEmail +
-               '&contactSubject=' + contactSubject + '&contactMessage=' + contactMessage;
-
+      let name = $('#contactName').val();
+      let email = $('#contactEmail').val();
+      let subject = $('#contactSubject').val();
+      let message = $('#contactMessage').val();
+     
       $.ajax({
 
-	      type: "POST",
-	      url: "inc/sendEmail.php",
-	      data: data,
+	      
+	      url: "/home/Email",
+          data: JSON.stringify({
+
+              ContactName: contactName,
+              ContactEmail: contactEmail,
+              Subject:contactSubject,
+              Message: contactMessage
+          }),
+          contentType: "application/json",
+          method: "POST",
+          dataType: "html",
 	      success: function(msg) {
+
+              console.log(msg);
 
             // Message was sent
             if (msg == 'OK') {
